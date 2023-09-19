@@ -12,7 +12,9 @@ const listUL = document.querySelector("#list")
 const createBookList = (book) => {
     // console.log(book)
     // debugger
-
+    const li = document.createElement("li")
+    li.textContent = book.title
+    listUL.append(li)
 }
 
 
